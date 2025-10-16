@@ -11,6 +11,7 @@ def next_permutation(arr):
     for i in range(n-1,idx,-1):
         if arr[i]>arr[idx]:
             arr[i],arr[idx]=arr[idx],arr[i]
+            break
 
     arr[idx+1:].sort()
     return arr
