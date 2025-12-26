@@ -4,7 +4,7 @@ class Node:
         self.left = left
         self.right = right
 
-
+#Testing 
 def insert_node(root, val):
     if root is None:
         return Node(val)
