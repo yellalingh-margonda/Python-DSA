@@ -5,6 +5,7 @@ class Node:
         self.right = right
 
 #Testing 
+#test2
 def insert_node(root, val):
     if root is None:
         return Node(val)
